@@ -22,8 +22,9 @@ dbfsSrcRawFile = dbfsSrcDirPathRaw + "/wcproduction.xml"
 # COMMAND ----------
 
 #Retrieve the zipped file
+#Enter ftp site ip
 import urllib 
-urllib.request.urlretrieve("ftp://164.64.106.6/Public/OCD/OCD%20Interface%20v1.1/volumes/wcproduction/wcproduction.zip", "/tmp/wcproduction.zip")
+urllib.request.urlretrieve("ftp://0.0.0.0/Public/OCD/OCD%20Interface%20v1.1/volumes/wcproduction/wcproduction.zip", "/tmp/wcproduction.zip")
 
 # COMMAND ----------
 
